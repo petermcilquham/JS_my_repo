@@ -1,0 +1,25 @@
+body {
+    width: 60%;
+    margin:auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 40px 0 60px 0;
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul#menu {
+    padding: 0;
+}
+
+ul#menu li {
+    display: inline;
+    padding: 0 30px 0 0;
+    font-family: 'Courier New', Courier, monospace;
+}

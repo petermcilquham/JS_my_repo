@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start-dev": "cross-env NODE_ENV=DEV PORT=8080 nodemon app.js",
+    "megascript": "npm run showappcontent & npm run showdirectorycontent",
+    "showdirectorycontent": "ls",
+    "showappcontent": "cap app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
