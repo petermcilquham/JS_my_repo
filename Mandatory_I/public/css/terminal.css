@@ -1,0 +1,26 @@
+.grid-parent {
+    display: grid;
+    grid-column-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 4fr;
+    grid-template-areas: 
+    "header-1 header-2"
+    "column-1 column-2";
+}
+
+.item1 {
+    grid-area: header-1;
+}
+.item2 {
+    grid-area: column-1;
+}
+.item3 {
+    grid-area: header-2;
+}
+.item4 {
+    grid-area: column-2;
+}
+
+ul {
+    padding-left: 15px;
+}

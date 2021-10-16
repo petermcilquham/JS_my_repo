@@ -1,0 +1,24 @@
+.grid-parent {
+    display: grid;
+    grid-row-gap: 40px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "top"
+    "bottom";
+}
+
+.item1 {
+    grid-area: top;
+}
+.item2 {
+    grid-area: bottom;
+}
+
+h2, p{
+    text-align: center;
+}
+
+.grid-parent a {
+    text-decoration-line: underline;
+}

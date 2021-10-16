@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
-    <!-- <link rel="stylesheet" href="../css/terminal.css"> -->
+    <link rel="stylesheet" href="../css/terminal.css">
     <title>Terminal</title>
 </head>
 <body>
@@ -15,7 +15,6 @@
         <li><a href="/code">Code snippets</a></li>
         <li><a href="/tools">Tools</a></li>
         <li><a href="/theory">Theory</a></li>
-        <li><a href="/research">Research?</a></li>
         <hr>
     </ul>
 
@@ -23,14 +22,23 @@
         <div class="item1">
             <h2>Git Kommandoer:</h2>
         </div>
-        <div class="item2"><p>git clone skaber et lokalt repository ud fra det link man specificerer. git pull henter opdateringer ned. git add </p></div>
-        <div class="item3"><p></p></div>
+        <div class="item2"><ul>
+            <li>git clone [git url link] skaber et lokalt repository ud fra link'et.</li>
+            <li>git pull henter opdateringer ned.</li>
+            <li>git add [file/folder/Or -A for all] tilføjer den fil eller folder man specificerer eller alle filer i den directory man er i til repository.</li>
+            <li>git commit -m "[message]" comitter ændringer med en besked.</li>
+            <li>git push, pusher til github.</li>
+        </ul></div>
+        <div class="item3">
+            <h2>Andre terminal kommandoer:</h2>
+        </div>
         <div class="item4"><ul>
-            <li>git clone [git url link]</git></li>
-            <li>git pull</li>
-            <li>git add [file/folder/Or -A for all]</li>
-            <li>git commit -m "[message]"</li>
-            <li>git push</li>
+            <li>cd, change directory, navigerer til et directory</li>
+            <li>ls, list directory, viser en liste over alle elementer i det nuværende directory</li>
+            <li>[program] -v viser hvilken version af programmet der er installeret</li>
+            <li>npm install -g nodemon installerer nodemon globalt</li>
+            <li>npm run nodemon kører nodemon</li>
+            <li>npm run start-dev kører start-dev scriptet i package.json filen</li>
         </ul></div>
     </div>
 </body>

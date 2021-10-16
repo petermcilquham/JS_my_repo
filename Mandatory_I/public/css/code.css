@@ -1,0 +1,27 @@
+.grid-parent {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 42% 58%;
+    grid-template-rows: 40% 40% 20%;
+    grid-template-areas:
+    "tl tr"
+    "ml mr"
+    "b b";
+}
+
+.item1 {
+    grid-area: tl;
+}
+.item2 {
+    grid-area: tr;
+}
+ .item3 {
+    grid-area: b;
+}
+
+.item4 {
+    grid-area: mr;
+}
+.item5 {
+    grid-area: ml;
+}
