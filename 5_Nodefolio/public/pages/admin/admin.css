@@ -1,0 +1,20 @@
+main {
+    text-align: center;
+}
+
+button {
+    margin: 15px 0;
+    padding: 10px 0;
+    width: 250px;
+    font-size: 13px;
+}
+
+.small-btn {
+    padding: 5px 0;
+    width: 100px;
+    font-size: 11px;
+}
+
+.hidden {
+    display: none;
+}

@@ -1,0 +1,23 @@
+main {
+    min-height: calc(100vh - 270px);
+}
+
+.logo-image {
+    height: 100px;
+}
+
+button {
+    cursor: pointer;
+}
+
+footer {
+    margin: 60px 0 0 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
